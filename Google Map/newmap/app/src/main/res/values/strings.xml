@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">newmap</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_login">login</string>
+    <string name="title_activity_signup">signup</string>
+    <string name="title_activity_group">group</string>
+    <string name="title_activity_newgroup">newgroup</string>
+</resources>

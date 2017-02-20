@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <fragment
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    tools:context="com.example.asus_k46cm.newmap.MapsActivity"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chổ Của Tôi"
+        android:id="@+id/bntHere"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@+id/map"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Kinh Độ"
+        android:id="@+id/tvkinhDo"
+        android:layout_below="@+id/map"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="68dp"
+        android:layout_marginEnd="68dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Vĩ Độ"
+        android:id="@+id/tvViDo"
+        android:layout_below="@+id/tvkinhDo"
+        android:layout_alignLeft="@+id/tvkinhDo"
+        android:layout_alignStart="@+id/tvkinhDo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large"
+        android:id="@+id/textView111"
+        android:layout_alignTop="@+id/bntHere"
+        android:layout_toRightOf="@+id/bntHere"
+        android:layout_toEndOf="@+id/bntHere" />
+
+</RelativeLayout>

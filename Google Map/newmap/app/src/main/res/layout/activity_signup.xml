@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edName"
+        android:hint="Name"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/edPassword"
+        android:layout_below="@+id/edName"
+        android:layout_marginTop="50dp"
+        android:layout_alignLeft="@+id/edPassword1"
+        android:layout_alignStart="@+id/edPassword1"
+        android:hint="Password"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/edPassword1"
+        android:layout_below="@+id/edPassword"
+        android:layout_alignLeft="@+id/edMail"
+        android:layout_alignStart="@+id/edMail"
+        android:layout_marginTop="62dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="Password again"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/edMail"
+        android:layout_marginTop="65dp"
+        android:layout_below="@+id/edPassword1"
+        android:hint="Mail"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:background="#85a9ed"
+        android:layout_height="70dp"
+        android:text="ok"
+        android:textSize="26dp"
+        android:textColor="#ff0022"
+        android:id="@+id/btOk"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/edMail"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
