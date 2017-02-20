@@ -1,1 +1,0 @@
-include ':app', ':bolts-tasks-1.4.0', ':Parse-1.13.0'
